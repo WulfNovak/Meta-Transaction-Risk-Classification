@@ -1,6 +1,6 @@
 # Meta-Transaction-Risk-Classification
 The following notebook exists to achieve the following:
-- First and foremost, familiarize self with Python and scikit learn, prioritise practice over rigor (for now)
+- Familiarize self with Python and scikit learn, prioritise practice over rigor (for now)
 - Use Halving Grid Search and Bayesian Optimization to select hyperparameters
 - Practice coding Voting and Stacking Ensemble models in Python
 
