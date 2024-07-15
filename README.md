@@ -7,6 +7,4 @@ The following notebook exists to achieve the following:
 Some conclusions from this notebook:
 - Halving grid search is computationally efficient and effective and may be preferable if training time should be minimized.
 - Bayesian Optimization is less computationally efficient, but may be better for achieving a global optimum.
-- Prior experience with Voting and Stacking Ensemble models validates what this script shows;
-  ensemble model inputs (Light GBM) have great sway over the model output, especially if developed on the same data.
-  These may still be effictive if ensemble input models are developed on different partitions of the data. 
+- Voting and Stacking Ensemble models are not effective when given input ensemble models, particularly when all input models are built on the same dataset.
