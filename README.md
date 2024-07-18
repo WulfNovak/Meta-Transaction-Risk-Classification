@@ -3,12 +3,13 @@ The following notebook exists to achieve the following:
 - Explore Meta Transaction Data and build machine learning models to classify categorical risk level.
 - Using scikit-learn, create model pipeline to test different model types.
 - Use Halving Grid Search and Bayesian Optimization to select hyperparameters
-- Combine models into voting and stacking ensemble models, contrast resulting accuracy.
+- Combine models into voting and stacking ensemble models, compare resulting accuracy.
 
 Noted Results:
 - Deduced that data is synthetic
-- Multicollinearity between several key variables
-  -  Removed from analysis
+- Multicollinearity between several key variables and target variable, anomaly
+  - Multicollinear variables: risk_score, transaction_type
+  - Removed variables from analysis
 - Halving Grid Search resulted in *marginally* better Light GBM models
 - Bayesian Optimization function was more convenient to code
   - Subsequently used for ensemble models
