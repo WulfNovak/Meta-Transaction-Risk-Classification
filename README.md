@@ -4,7 +4,8 @@
    - Engineer Features
 - Utilize Halving Grid Search and Bayesian Optimization
    - Will only use on Light GBM
-   - Compare Accuracy
+   - Hyperparameter optimization
+   - Compare performance metrics on validation set
    - Compare ease of coding 
 - Using scikit-learn, create model pipeline to test different model types.
 - Combine models to voting and stacking ensemble models, compare resulting accuracy.
