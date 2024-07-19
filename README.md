@@ -5,6 +5,12 @@ The following notebook exists to achieve the following:
 - Use Halving Grid Search and Bayesian Optimization to select hyperparameters
 - Combine models into voting and stacking ensemble models, compare resulting accuracy.
 
+Order to View or Run Scripts:
+1. meta_eda
+2. meta_ml
+   - This includes functions given in the functions folder
+3. meta_ensemble_pipeline
+
 Noted Results:
 - Deduced that data is synthetic
 - Multicollinearity between several key variables and target variable, anomaly
