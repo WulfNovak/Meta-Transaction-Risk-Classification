@@ -1,9 +1,13 @@
 # Meta-Transaction-Risk-Classification
 The following notebook exists to achieve the following:
-- Explore Meta Transaction Data and build machine learning models to classify categorical risk level.
+- Explore Meta Transaction Data
+   - Engineer Features
+- Utilize Halving Grid Search and Bayesian Optimization
+   - Will only use on Light GBM
+   - Compare Accuracy
+   - Compare ease of coding 
 - Using scikit-learn, create model pipeline to test different model types.
-- Use Halving Grid Search and Bayesian Optimization to select hyperparameters
-- Combine models into voting and stacking ensemble models, compare resulting accuracy.
+- Combine models to voting and stacking ensemble models, compare resulting accuracy.
 
 Order to View or Run Scripts:
 1. meta_eda
