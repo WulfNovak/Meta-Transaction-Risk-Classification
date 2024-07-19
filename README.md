@@ -1,10 +1,28 @@
 # Meta-Transaction-Risk-Classification
-The following notebook exists to achieve the following:
-- Familiarize self with Python and scikit learn
-- Use Halving Grid Search and Bayesian Optimization to select hyperparameters
-- Practice coding Voting and Stacking Ensemble models in Python
+**The following notebook exists to achieve the following:**
+- Explore Meta Transaction Data
+   - Engineer Features
+- Utilize Halving Grid Search and Bayesian Optimization
+   - Will only use on Light GBM
+   - Compare Accuracy
+   - Compare ease of coding 
+- Using scikit-learn, create model pipeline to test different model types.
+- Combine models to voting and stacking ensemble models, compare resulting accuracy.
 
-Some conclusions from this notebook:
-- Halving grid search is computationally efficient and effective and may be preferable if training time should be minimized.
-- Bayesian Optimization is less computationally efficient, but may be better for achieving a global optimum.
-- Voting and Stacking Ensemble models are not effective when given input ensemble models, particularly when all input models are built on the same dataset.
+**Order to View or Run Scripts:**
+1. meta_eda
+2. meta_ml
+   - This includes functions given in the functions folder
+3. meta_ensemble_pipeline
+
+**Noted Results:**
+- Deduced that data is synthetic
+- Multicollinearity between several key variables and target variable, anomaly
+  - Multicollinear variables: risk_score, transaction_type
+  - Removed variables from analysis
+- Halving Grid Search resulted in *marginally* better Light GBM models
+- Bayesian Optimization function was more convenient to code
+  - Subsequently used for ensemble models
+- Voting and Stacking Ensemble models improved accuracy (slightly)
+  - Would perform better if models were built on separate datasets
+
