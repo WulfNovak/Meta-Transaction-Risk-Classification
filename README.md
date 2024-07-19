@@ -21,9 +21,10 @@
 - Multicollinearity between several key variables and target variable, anomaly
   - Multicollinear variables: risk_score, transaction_type
   - Removed variables from analysis
-- Halving Grid Search resulted in *marginally* better Light GBM models
+- Halving Grid Search resulted in *marginally* better Light GBM models for this objective
 - Bayesian Optimization function was more convenient to code
   - Subsequently used for ensemble models
+  - less run time
 - Voting and Stacking Ensemble models improved accuracy (slightly)
   - Would perform better if models were built on separate datasets
 
