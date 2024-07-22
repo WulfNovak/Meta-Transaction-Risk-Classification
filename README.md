@@ -1,5 +1,6 @@
-# Meta-Transaction-Risk-Classification
-**The following notebook exists to achieve the following:**
+<p align="center">Meta-Transaction-Risk-Classification</p>
+
+### **Notebook exists to achieve the following:**
 - Explore Meta Transaction Data
    - Engineer Features
 - Utilize Halving Grid Search and Bayesian Optimization
@@ -10,13 +11,13 @@
 - Using scikit-learn, create model pipeline to test different model types.
 - Combine models to voting and stacking ensemble models, compare resulting accuracy.
 
-**Order to View or Run Scripts:**
+### **Order to View or Run Scripts:**
 1. meta_eda
 2. meta_ml
    - This includes functions given in the functions folder
 3. meta_ensemble_pipeline
 
-**Noted Results:**
+### **Noted Results:**
 - Deduced that data is synthetic
 - Multicollinearity between several key variables and target variable, anomaly
   - Multicollinear variables: risk_score, transaction_type
