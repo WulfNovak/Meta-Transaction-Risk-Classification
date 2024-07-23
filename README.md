@@ -14,7 +14,6 @@
 ### **Order to View or Run Scripts:**
 1. meta_eda
 2. meta_ml
-   - This includes functions given in the functions folder
 3. meta_ensemble_pipeline
 
 ### **Noted Results:**
@@ -27,6 +26,6 @@
    - Resulting models required fewer input variables
    - Used for ML Pipeline and ensemble model section
   
-- Voting and Stacking Ensemble models improved accuracy (slightly)
-  - Would perform better if models were built on separate datasets
+- Voting and Stacking Ensemble models did not perform ensemble inputs
+  - May perform better if models were built on separate datasets
 
