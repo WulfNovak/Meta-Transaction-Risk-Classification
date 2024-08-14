@@ -26,6 +26,6 @@
    - Resulting models required fewer input variables
    - Used for ML Pipeline and ensemble model section
   
-- Voting and Stacking Ensemble models did not perform ensemble inputs
+- Voting and Stacking Ensemble models did not outperform ensemble inputs
   - May perform better if models were built on separate datasets
 
