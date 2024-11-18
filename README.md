@@ -1,8 +1,7 @@
 <h1 align="center"> Meta-Transaction-Risk-Classification</h1>
 
 ### **Notebook exists to achieve the following:**
-- Explore Meta Transaction Data
-   - Engineer Features
+- Analyze and Prepare Meta Transaction data for analysis
 - Utilize Halving Grid Search and Bayesian Optimization
    - Will only use on Light GBM
    - Hyperparameter optimization
